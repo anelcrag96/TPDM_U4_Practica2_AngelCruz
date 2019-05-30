@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffc1d3"
+    tools:context=".IniciarJuego">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Juego de las moscas"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="90dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mosca_chida"
+        android:paddingTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Iniciar juego"
+        android:id="@+id/btnIniciar"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>
